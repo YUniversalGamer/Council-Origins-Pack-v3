@@ -2,22 +2,12 @@
 	"type": "origins:action_over_time",
 	"interval": 0,
 	"entity_action": {
-	   "type": "origins:apply_effect",
-	   "effect": {    
-       "effect": "minecraft:haste",
-	   "duration": 99999,
-	   "amplifier": 1,
-	   "show_particles": false,
-	   "show_icon": false
-	   }
-	},
+	   "type": "origins:execute_command",
+	   "command": "effect give @s minecraft:haste infinite 2 true"
+	},   
     "name": "Hasty",
-	"description": "You use magic to speed up your mining.",
-	"condition": {
-    "type": "origins:health",
-    "comparison": ">",
-    "compare_to": 0
-    }
+	"description": "You use magic to speed up your mining."
+    
 	
 	
 		
