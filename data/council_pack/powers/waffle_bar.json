@@ -5,5 +5,6 @@
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
         "bar_index": 10,
         "inverted": true
-    }
+    },
+    "hidden": true
 }
