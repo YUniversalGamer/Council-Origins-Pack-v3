@@ -28,7 +28,7 @@
     "hud_render": {
       "bar_index": 2
     },
-    "cooldown": 2400,
+    "cooldown": 1200,
     "name": "Super Saiyn",
     "description": "You can go super saiyn, enhancing your senses and abilities.",
 	"key": {
