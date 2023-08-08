@@ -1,0 +1,9 @@
+{
+    "type": "origins:entity_glow",
+    "use_teams": false,
+    "red": 0.5,
+    "green": 0.5,
+    "blue": 1.0,
+	"name": "Hyper Awareness",
+	"description": "You are accutely aware of your surroundings. Every creature glows a light blue."
+}

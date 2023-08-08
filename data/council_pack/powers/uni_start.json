@@ -1,0 +1,11 @@
+{
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "minecraft:diamond_pickaxe"
+        }
+        
+    ],
+	"name": "All thats left...",
+	"description": "This diamond pickaxe is all you had time to grab... what went wrong?"
+}

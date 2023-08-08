@@ -1,0 +1,27 @@
+{
+    "type": "origins:conditioned_restrict_armor",
+    "head": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 2
+    },
+    "chest": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 5
+    },
+    "legs": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 4
+    },
+    "feet": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 1
+    },
+	"name": "Lightweight",
+	"description": "Due to the fact you use wind currents to fly, you cannot wear heavy armour.",
+	"tick_rate": 20
+	
+}

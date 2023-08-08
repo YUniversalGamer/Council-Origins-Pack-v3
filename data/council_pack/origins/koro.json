@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"council_pack:super_saiyn",
+		"council_pack:tp_behind",
+		"council_pack:glow",
+		"origins:carnivore"
+	],
+	"name": "Koro",
+	"description": "A super saiyn. He's holding back.",
+	"order": 3,
+	"impact": 0,
+	"icon": {
+		"item": "minecraft:sea_lantern"
+	}
+}

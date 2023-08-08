@@ -1,0 +1,16 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+    "type": "origins:execute_command",
+    "command": "tp @s @p[distance=..30,name=!itzK0r0]"
+	},
+	"key": {
+		"key": "key.origins.primary_active"
+	},
+	"name": "Teleports Behind You",
+	"description": "You can teleport to the nearest player within 30 blocks.",
+	"cooldown": 600,
+	"hud_render": {
+    "bar_index": 3
+	}
+}

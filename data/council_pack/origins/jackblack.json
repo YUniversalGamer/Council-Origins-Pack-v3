@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"council_pack:fireball",
+        "council_pack:flight_copy",
+        "council_pack:ghast_screech",
+        "council_pack:cant_sleep"
+	],
+	"icon": {
+		"item": "minecraft:ghast_tear"
+	},
+	"order": 9,
+	"impact": 0,
+	"name": "Jackblack",
+	"description": "Ghastborn"
+}
+	

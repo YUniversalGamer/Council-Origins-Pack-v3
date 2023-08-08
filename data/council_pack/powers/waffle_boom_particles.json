@@ -1,0 +1,13 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:explosion",
+    "count": 30,
+    "spread": {"x": 5, "y":5, "z":5},
+    "frequency": 10,
+    "condition": {
+        "type": "origins:status_effect",
+        "effect": "minecraft:luck"
+    },
+    "hidden": true
+     
+}

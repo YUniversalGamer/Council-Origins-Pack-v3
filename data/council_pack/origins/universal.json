@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"origins:throw_ender_pearl",
+		"council_pack:pocket_in",
+		"council_pack:pocket_out",
+		"council_pack:less_health",
+		"council_pack:uni_start",
+		"council_pack:stop_escape_pocket",
+		"council_pack:pocket_duo"
+	],
+	"icon": {
+		"item": "minecraft:ender_pearl"
+	},
+	"order": 0,
+	"impact": 0,
+	"name": "Universal",
+	"description": "A reality bender who has lost most of his powers. He's searching for answers."
+}

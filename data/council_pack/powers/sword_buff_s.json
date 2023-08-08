@@ -1,0 +1,27 @@
+{
+	"type": "origins:active_self",
+	"condition": {
+		"type": "origins:equipped_item",
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:stone_sword"
+			}
+		}
+	},
+	"entity_action": {
+		"type": "origins:execute_command",
+		"permission_level": 4,
+		"command": "effect give @s minecraft:strength 1 2 true"
+	},
+	"key": {
+		"key": "key.attack",
+		"continuous": true
+	},
+	"name": "Warriors Might",
+	"description": "You have trained in sword combat your whole life. You deal more damage with a sword.",
+	"hidden": true
+} 
+		
+	

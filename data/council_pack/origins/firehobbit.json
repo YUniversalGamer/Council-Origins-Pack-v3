@@ -1,0 +1,15 @@
+{
+	"powers": [	
+	"council_pack:misfortune",
+	"council_pack:heal_pot",
+	"council_pack:haste",
+	"council_pack:more_dmg"
+	],
+	"name": "Firehobbit",
+	"description": "A cleric from tarnivar.",
+	"impact": 0,
+	"order": 4,
+	"icon": {
+		"item": "minecraft:ender_eye"
+	}
+}

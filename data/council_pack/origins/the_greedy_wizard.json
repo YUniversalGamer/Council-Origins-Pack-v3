@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"origins:elytra",
+		"origins:launch_into_air",
+		"council_pack:invisibility",
+		"council_pack:invis_toggle",
+		"council_pack:more_dmg"
+		
+	],
+	"icon": {
+		"item": "minecraft:feather"
+	},
+	"order": 6,
+	"impact": 0,
+	"name": "Greedy Wizard",
+	"description": "Magic Bird"
+}
+	

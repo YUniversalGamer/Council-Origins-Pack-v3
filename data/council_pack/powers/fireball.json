@@ -1,0 +1,16 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:fireball",
+    "cooldown":600,
+    "hud_render": {
+        "should_render": true,
+		"bar_index": 7,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png"
+    },
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    },
+	"name": "Fireball",
+	"description": "You can shoot a fireball every thirty seconds"
+}

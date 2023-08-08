@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"council_pack:backpack",
+		"council_pack:dog_spawn",
+		"council_pack:spinnz_strength",
+		"origins:carnivore"
+		
+	],
+	"name": "Spinnz",
+	"description": "A great adventurer who has been as far as the farlands.",
+	"order": 3,
+	"impact": 0,
+	"icon": {
+		"item": "minecraft:bundle"
+	}
+}
+
+		

@@ -1,0 +1,25 @@
+{
+	"type": "origins:action_over_time",
+	"interval": 0,
+	"entity_action": {
+	   "type": "origins:apply_effect",
+	   "effect": {    
+       "effect": "minecraft:speed",
+	   "duration": 999999999999999999999999,
+	   "amplifier": 1,
+	   "show_particles": false,
+	   "show_icon": false
+	   }
+	},
+    "name": "Radioactive Speed",
+	"description": "The protons from the uranium-infused waffle you ate when you were 3 rush through your muscles, enhancing your speed.",
+	"condition": {
+    "type": "origins:health",
+    "comparison": ">",
+    "compare_to": 0
+    }
+	
+	
+		
+}
+	

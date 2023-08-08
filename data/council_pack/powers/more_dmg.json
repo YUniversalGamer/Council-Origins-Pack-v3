@@ -1,0 +1,15 @@
+{
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 2,
+		"source": {
+			"name": "magic",
+			"fire": false,
+			"bypasses_armour": true
+		}
+	},
+    "cooldown": 1,
+	"name": "Frailty",
+	"description": "Your body is frail, resulting in you taking more damage."
+}

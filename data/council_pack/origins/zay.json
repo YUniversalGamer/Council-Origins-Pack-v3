@@ -1,0 +1,19 @@
+{
+    "powers": [
+                "council_pack:tank",
+                "council_pack:rush_zay",
+                "council_pack:flight",
+                "council_pack:fly_debuff",
+                "council_pack:light_weight"
+                
+               
+			
+   ],
+   "icon": {
+       "item": "minecraft:iron_ingot"
+   },
+   "order": 8,
+   "impact": 0,
+   "name": "Zay",
+   "description": "An extremely powerful being from another world."
+}

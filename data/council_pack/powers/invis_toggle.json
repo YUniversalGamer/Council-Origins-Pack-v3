@@ -1,0 +1,9 @@
+{
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+	"name": "Invisibility",
+	"description": "You can turn invisible at will, indefinitly."
+}

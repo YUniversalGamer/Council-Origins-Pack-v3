@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "effect give @s slowness 5 0 true"
+    },
+    "interval": 80,
+    "condition": {
+        "type": "origins:inventory",
+        "inventory_type": ["power"],
+        "process_mode": "items",
+        "comparison": ">=",
+        "compare_to": 2560
+    },
+    "hidden": false
+}

@@ -1,0 +1,10 @@
+{
+    "type": "origins:invisibility",
+    "render_armor": false,
+	"condition": {
+        "type": "origins:power_active",
+        "power": "council_pack:invis_toggle"
+	},
+	"hidden": true,
+    "name": "Beans n toast"
+}

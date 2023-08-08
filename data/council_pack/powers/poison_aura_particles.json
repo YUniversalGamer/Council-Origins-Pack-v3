@@ -1,0 +1,18 @@
+{
+    "type": "origins:overlay",
+    "texture": "minecraft:textures/block/slime_block.png",
+    "strength": 0.5,
+    "red": 1.0,
+    "green": 1.0,
+    "blue": 1.0,
+    "draw_mode": "texture",
+    "draw_phase": "below_hud",
+    "hide_with_hud": false,
+    "visible_in_third_person": false,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "council_pack:poison_aura_toggle"
+    },
+    "hidden": true
+
+}

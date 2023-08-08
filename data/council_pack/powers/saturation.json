@@ -1,0 +1,25 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+	   "type": "origins:apply_effect",
+	   "effect": {    
+       "effect": "minecraft:saturation",
+	   "duration": 999999,
+	   "amplifier": 0,
+	   "show_particles": false,
+	   "show_icon": false
+	   }
+	},
+    "name": "Warriors Stomach",
+	"description": "You have trained yourself to survive on water alone. You do not need to eat.",
+	"condition": {
+    	"type": "origins:health",
+    	"comparison": ">",
+    	"compare_to": 0
+    },
+	"key": {
+		"key": "key.forward",
+		"continuous": true
+	}	
+}
+	

@@ -1,0 +1,30 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "effect give @e[distance=..30] slowness 30 0 true"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "effect clear @s slowness"
+        },
+        {
+            "type": "origins:play_sound",
+            "sound": "entity.ghast.hurt",
+            "volume": 1.88
+        }
+        ]
+    },
+      "hud_render": {
+        "bar_index": 0
+      },
+      "cooldown": 1200,
+      "name": "Screech",
+      "description": "You let out a deafening screech which causes everything around you to move slowly for a while",
+      "key": {
+          "key": "key.origins.secondary_active"
+      }
+  }

@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -4,
+        "operation": "addition",
+		"update_health": true
+    },
+	"name": "Injured",
+	"description": "When you fled from the great cataclysm, you were injured. It dosen't look like it will heal."
+}

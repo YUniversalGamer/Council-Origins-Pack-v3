@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"council_pack:waffle_boom",
+		"council_pack:waffle_boom_particles",
+		"council_pack:waffle_speed",
+		"council_pack:poison_aura",
+		"council_pack:poison_aura_toggle",
+		"council_pack:poison_aura_particles",
+		"council_pack:less_health_aruka"
+	],
+	"icon": {
+		"item": "minecraft:slime_ball"
+	},
+	"order": 5,
+	"impact": 0,
+	"name": "Aruka",
+	"description": "Radioactive Waffle Man"
+}
+	

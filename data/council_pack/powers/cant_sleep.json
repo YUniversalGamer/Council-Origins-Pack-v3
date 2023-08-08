@@ -1,0 +1,11 @@
+{
+    "type": "origins:prevent_sleep",
+    "message": "It's not hot enough for you to sleep here.",
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether",
+        "inverted": true
+    },
+    "name": "Hot Blooded",
+    "description": "You can't sleep outside the nether, as you are acostomed its high temperatures."
+}

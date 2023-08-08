@@ -1,0 +1,186 @@
+﻿{
+	"type": "origins:active_self",
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+			"type": "origins:or",
+			"conditions": [{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:clock"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:clock"
+						}
+					}
+				}
+			]
+		}]
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team add time"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join time @a"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join time @e[type=minecraft:guardian]"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join time @e[type=minecraft:creeper]"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join time @e[type=minecraft:wither]"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join time @e[type=minecraft:ghast]"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join time @e[type=minecraft:skeleton]"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join time @e[type=minecraft:drowned]"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:item.lodestone_compass.lock player @s",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @e slowness 10 200 true",
+				"permission_level": 4
+
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @s invisibility 10 1 true",
+				"permission_level": 4
+
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @e jump_boost 10 200 true",
+				"permission_level": 4
+			}, {
+				"type": "origins:execute_command",
+				"command": "effect give @e mining_fatigue 10 200 true",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @e weakness 10 200 true",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 1,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "effect clear @s jump_boost",
+					"permission_level": 4
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 1,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "effect clear @s slowness",
+					"permission_level": 4
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 1,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "effect clear @s mining_fatigue",
+					"permission_level": 4
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 1,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "effect clear SirRemyRatsworth jump_boost",
+					"permission_level": 4
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 1,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "effect clear SirRemyRatsworth slowness",
+					"permission_level": 4
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 1,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "effect clear SirRemyRatsworth mining_fatigue",
+					"permission_level": 4
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 200,
+				"action": {
+					"type": "origins:execute_command",
+					"permission_level": 4,
+					"command": "team remove time"
+				}
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "title @s title {\"text\":\"ZA WARUDO!\",\"color\":\"dark_purple\"}",
+				"permission_level": 4
+			}
+		]
+	},
+	"cooldown": 2400,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 24
+	},
+	"key": {
+		"key": "key.use",
+		"continuous": false
+	},
+	"hidden": false,
+	"name": "Screeching Halt",
+	"description": "Use a clock to stop time, using it to your advantage."
+}

@@ -1,0 +1,34 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @s health_boost 15 9 true"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @s instant_health 1 100 true"
+      },
+      {
+        "type": "origins:exhaust",
+        "amount": 50
+      }
+	  ]
+  },
+    "hud_render": {
+      "bar_index": 2
+    },
+    "cooldown": 500,
+    "name": "Adrenaline Rush",
+    "description": "Adrenaline rushes through your veins healing all wounds and temporarily increasing damage compacity. However, it greatly exausts you.",
+	"key": {
+		"key": "key.origins.primary_active"
+	},
+  "condition": {
+    "type": "origins:food_level",
+    "comparison": ">",
+    "compare_to": 14
+}
+}

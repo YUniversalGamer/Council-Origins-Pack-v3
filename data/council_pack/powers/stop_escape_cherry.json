@@ -1,0 +1,15 @@
+{
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+        "type": "origins:trigger_cooldown",
+        "power": "council_pack:cherry_in"
+    },
+    "damage_condition": {
+        "type": "origins:attacker",
+        "entity_condition": {
+            "type": "origins:living"
+        }
+    },
+    "cooldown": 1,
+    "hidden": true
+}
