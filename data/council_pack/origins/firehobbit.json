@@ -1,10 +1,12 @@
 {
 	"powers": [	
 	
-	"council_pack:haste",
-	"council_pack:more_dmg",
+	"council_pack:fire_resistance",
+	"council_pack:speed_toggle",
 	"council_pack:speed",
-	"council_pack:speed_toggle"
+	"council_pack:haste",
+	"council_pack:more_dmg"
+	
 	],
 	"name": "Firehobbit",
 	"description": "A cleric from tarnivar.",
