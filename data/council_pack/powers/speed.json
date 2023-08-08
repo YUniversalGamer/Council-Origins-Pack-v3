@@ -1,0 +1,13 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 0,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "effect give @s speed 1 1 true"
+    },
+    "condition": {
+        "type": "origins:power_active",
+        "power": "council_pack:speed_toggle"
+    },
+    "hidden": true
+}

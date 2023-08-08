@@ -1,0 +1,7 @@
+{
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": "key.origins.secondary_active",
+    "name": "Swift Feet",
+    "description": "You can cast a spell increasing your speed at will."
+}

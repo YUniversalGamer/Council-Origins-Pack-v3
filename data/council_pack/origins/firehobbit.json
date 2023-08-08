@@ -1,9 +1,10 @@
 {
 	"powers": [	
-	"council_pack:misfortune",
-	"council_pack:heal_pot",
+	
 	"council_pack:haste",
-	"council_pack:more_dmg"
+	"council_pack:more_dmg",
+	"council_pack:speed",
+	"council_pack:speed_toggle"
 	],
 	"name": "Firehobbit",
 	"description": "A cleric from tarnivar.",
