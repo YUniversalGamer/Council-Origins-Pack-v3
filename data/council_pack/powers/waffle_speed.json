@@ -5,7 +5,7 @@
 	   "type": "origins:apply_effect",
 	   "effect": {    
        "effect": "minecraft:speed",
-	   "duration": 999999999999999999999999,
+	   "duration": 9999,
 	   "amplifier": 1,
 	   "show_particles": false,
 	   "show_icon": false
