@@ -1,7 +1,0 @@
-{
-    "type": "origins:toggle",
-    "active_by_default": false,
-    "key": "key.origins.secondary_active",
-    "name": "Radioactive Aura",
-    "description": "You can create a field of radioactivity around you at will."
-}
