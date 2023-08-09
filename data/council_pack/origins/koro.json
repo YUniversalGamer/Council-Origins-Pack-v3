@@ -1,7 +1,7 @@
 {
 	"powers": [
+		"council_pack:super_saiyn_toggle",
 		"council_pack:super_saiyn",
-		"council_pack:tp_behind",
 		"council_pack:glow",
 		"origins:carnivore"
 	],

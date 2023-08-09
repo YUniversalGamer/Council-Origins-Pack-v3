@@ -1,0 +1,9 @@
+{
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "name": "Super Saiyn",
+    "description": "You can go super saiyn, enhancing your senses and abilities.",
+	"key": {
+		  "key": "key.origins.primary_active"
+	}
+}

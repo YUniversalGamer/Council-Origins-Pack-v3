@@ -1,37 +1,41 @@
 {
-  "type": "origins:active_self",
+  "type": "origins:action_over_time",
+  "interval": 0,
   "entity_action": {
     "type": "origins:and",
     "actions": [
       {
         "type": "origins:execute_command",
-        "command": "effect give @s resistance 30 0 true"
+        "command": "effect give @s resistance 1 0 true"
       },
       {
         "type": "origins:execute_command",
-        "command": "effect give @s jump_boost 30 0 true"
+        "command": "effect give @s jump_boost 1 0 true"
 	  },
 	  {
         "type": "origins:execute_command",
-        "command": "effect give @s speed 30 0 true"
+        "command": "effect give @s speed 1 0 true"
       },
 	  {
         "type": "origins:execute_command",
-        "command": "effect give @s strength 30 0 true"
+        "command": "effect give @s strength 1 0 true"
       },
 	  {
         "type": "origins:execute_command",
-        "command": "effect give @s haste 30 0 true"
+        "command": "effect give @s haste 1 0 true"
+      },
+      {
+        "type": "origins:exhaust",
+        "amount": 0.05
       }
 	  ]
   },
     "hud_render": {
       "bar_index": 2
     },
-    "cooldown": 1200,
-    "name": "Super Saiyn",
-    "description": "You can go super saiyn, enhancing your senses and abilities.",
-	"key": {
-		"key": "key.origins.secondary_active"
-	}
+    "condition": {
+      "type": "origins:power_active",
+      "power": "council_pack:super_saiyn_toggle"
+    },
+    "hidden": true
 }
