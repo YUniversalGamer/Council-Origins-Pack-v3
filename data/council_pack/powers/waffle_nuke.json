@@ -6,7 +6,7 @@
 
         {
             "type": "origins:play_sound",
-            "sound": "entity.creeper.primed"
+            "sound": "entity.wolf.howl"
         },
         {
             "type": "origins:trigger_cooldown",
@@ -14,7 +14,7 @@
         },
         {
             "type": "origins:delay",
-            "ticks": 60,
+            "ticks": 110,
             "action": {
                 "type": "origins:and",
                 "actions": [
