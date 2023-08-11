@@ -2,7 +2,7 @@
 "type": "origins:action_over_time",
 "entity_action": {
     "type": "origins:exhaust",
-    "amount": 0.1
+    "amount": 0.5
 },
 "interval": 5,
 "condition": {
