@@ -1,0 +1,64 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "origins:dimension",
+                    "dimension": "council_pack:pocket",
+                    "inverted": true
+                },
+
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:execute_command",
+                            "command": "execute in council_pack:pocket run tp @s ~ 72 ~"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "effect give @s resistance 10 9 true"
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:dimension",
+                    "dimension": "council_pack:pocket",
+                    "inverted": false
+                },
+
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:execute_command",
+                            "command": "execute in minecraft:overworld run tp @s ~ 300 ~"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "effect give @s resistance 30 9 true"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "effect give @s weakness 30 9 true"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "cooldown": 600,
+    "name": "Pocket Dimension",
+	"description": "You can still get into your pocket dimension. Good, you still have a safe space.",
+	"hud_render": {
+      "bar_index": 1,
+	  "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png"
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

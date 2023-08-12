@@ -1,8 +1,7 @@
 {
 	"powers": [
 		"origins:throw_ender_pearl",
-		"council_pack:pocket_in",
-		"council_pack:pocket_out",
+		"council_pack:pocket_travel",
 		"council_pack:less_health",
 		"council_pack:uni_start",
 		"council_pack:stop_escape_pocket",
