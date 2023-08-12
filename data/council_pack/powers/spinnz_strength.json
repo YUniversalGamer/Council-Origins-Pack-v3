@@ -5,19 +5,14 @@
 	   "type": "origins:apply_effect",
 	   "effect": {    
        "effect": "minecraft:strength",
-	   "duration": 99999,
-	   "amplifier": 0,
+	   "duration": 60,
+	   "amplifier": 1,
 	   "show_particles": false,
 	   "show_icon": false
 	   }
 	},
     "name": "Muscle",
-	"description": "Due to all your traveling and adventuring, your body is in prestine condition.",
-	"condition": {
-    "type": "origins:health",
-    "comparison": ">",
-    "compare_to": 0
-    }
+	"description": "Due to all your traveling and adventuring, your body is in prestine condition."
 		
 }
 	
