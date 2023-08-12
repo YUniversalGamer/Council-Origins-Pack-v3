@@ -3,7 +3,8 @@
 		"council_pack:backpack",
 		"council_pack:dog_spawn",
 		"council_pack:spinnz_strength",
-		"origins:carnivore"
+		"origins:carnivore",
+		"council_pack:less_health_spinnz"
 		
 	],
 	"name": "Spinnz",
